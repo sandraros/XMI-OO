@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_XMI_BAPI</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>XMI BAPI interface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_XMI_BAPI</CLSNAME>
+     <CMPNAME>DESCRIBE_INTERFACE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get text of interface. Log on not required.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_XMI_BAPI</CLSNAME>
+     <CMPNAME>ENTER_LOGMSG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Must be logged on</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_XMI_BAPI</CLSNAME>
+     <CMPNAME>GET_VERSIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Log on not required</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_XMI_BAPI</CLSNAME>
+     <CMPNAME>LOGOFF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Log off</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_XMI_BAPI</CLSNAME>
+     <CMPNAME>SELECT_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Log on not required</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_XMI_BAPI</CLSNAME>
+     <CMPNAME>SET_AUDIT_LEVEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>A general log on is required.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_XMI_BAPI</CLSNAME>
+     <CMPNAME>UPLOAD_MSG_FORMATS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Load table TXMIMSG. Must be logged on</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
